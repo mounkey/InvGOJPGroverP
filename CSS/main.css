@@ -96,3 +96,91 @@ body{
   margin-right: 5px;
   margin-bottom: 10px;
 }
+
+/* Contacto */
+
+.contenedorQs1, .contenedorqs2{
+  display: grid;
+  grid-template-columns: 1;
+
+}
+
+.contenedorQs__c1, .contenedor__c2{
+  display: grid;
+  grid-template-columns: 1;
+  height: auto;
+}
+
+.proyectos__img{
+  text-align: center;
+
+}   
+
+.contenedorQs{
+  width: auto;
+  height: auto;
+}
+
+.contenedorQs__c1, .contenedor__c2{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.c1__picture{
+  display: flex;
+  justify-content: space-around;
+}
+.c1__picture img{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.c1__text{
+  background-color: white;
+  color: #00AA55;
+  border-radius: 20px;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.c2__picture{
+  width: auto;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2{
+  border:5px white solid;
+  width: 180px;
+  height: 180px;
+}
+
+.c2__RRSS, .c1__RRSS{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.c2__RRSS a{
+  color:white;
+}
+
+.asociados{
+  color: white;
+}
+
+.asociados p{
+  padding: 10px;
+}
+
+.img_aso{
+  width: 350px;
+  height: 100px;
+}
