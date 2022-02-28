@@ -1,34 +1,41 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+
+
+body {
   background-color: #00aa55;
 }
 
+.logo {
+  width: 200px;
+  height: 150px;
+}
+
+.ul-footer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ul-footer li {
+  list-style-type: none;
+}
+
+#navbarSupportedContent ul li a{
+  color: #00AA55;
+  padding-left: 5px;
+}
+
+#navbarSupportedContent ul li a:hover {
+  color: gray;
+}
+
 /*head*/
-#uphead{
-  background-color: white;
-  margin-bottom: 15px;
-  margin-top: 10px;;
-  height: auto;
-}
 
-#uphead a{
-  text-decoration: none;
-  color: #00AA55; 
-  padding-right: 25px;
-}
-
-#uphead ul{
-  padding: 5px;
-}
-#uphead a:hover{
-  color:gray;
-}
-
-.box_logo{
+.box_logo {
   background-color: white;
   margin-left: 5px;
   margin-right: 5px;
@@ -36,59 +43,63 @@ body{
   border-radius: 25px;
 }
 
-.box_banner{
-  background-color: white;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  border-radius: 25px;
-}
+
 
 /*footer*/
-.footer{
+.footer {
   margin-top: 15px;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  color:white;
-  border: 2px white solid;
+  color: white;
+  /* border: 2px white solid; */
   border-radius: 25px;
 }
 
-.navegacion, .Direccion, .mapa, .RRSS{
+.navegacion,
+.Direccion,
+.mapa,
+.RRSS {
   margin-top: 20px;
   margin-left: 5px;
 }
 
-.navegacion ul li{
-  list-style:none;
-}
-
-.navegacion a{
-  text-decoration: none;
-  color:white;
-}
-.RRSS ul li{
+.navegacion ul li {
   list-style: none;
 }
 
-.RRSS a{
+.navegacion a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
-.endfooter{
+.RRSS__titulo{
+  text-align: center;
+}
+
+.RRSS__URL{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.RRSS__URL a{
+  text-decoration: none;
+  color: white;
+}
+
+.endfooter {
   text-align: center;
   font-size: medium;
   color: white;
-}   
+}
 
 /* index */
 
-.context{
+.context {
   background-color: white;
-  color:#00aa55;
+  color: #00aa55;
   border: 2px white solid;
   border-radius: 25px;
   margin-top: 10px;
@@ -99,85 +110,59 @@ body{
 
 /* Contacto */
 
-.contenedorQs1, .contenedorqs2{
-  display: grid;
-  grid-template-columns: 1;
-
+.qs{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.contenedorQs__c1, .contenedor__c2{
-  display: grid;
-  grid-template-columns: 1;
-  height: auto;
-}
-
-.proyectos__img{
-  text-align: center;
-
-}   
-
-.contenedorQs{
-  width: auto;
-  height: auto;
-}
-
-.contenedorQs__c1, .contenedor__c2{
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.c1__picture{
-  display: flex;
-  justify-content: space-around;
-}
-.c1__picture img{
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-}
-
-.c1__text{
+.qs__text{
   background-color: white;
   color: #00AA55;
   border-radius: 20px;
-  margin-top: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-left:5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
 }
-
-.c2__picture{
+.qs__img{
   width: auto;
   height: 200px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img2{
-  border:5px white solid;
-  width: 180px;
-  height: 180px;
-}
-
-.c2__RRSS, .c1__RRSS{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
   justify-content: space-around;
   align-items: center;
-  color:white;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
-.c2__RRSS a{
-  color:white;
+.img{
+  border-radius: 40px;
+  width: 80px;
+  height:80px;
 }
 
 .asociados{
-  color: white;
+  background-color: white;
+  color: #00AA55;
+  font-size: 18px;
+  width: auto;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 10px;;
 }
 
-.asociados p{
-  padding: 10px;
+.asociados__titulos{
+  color:white;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+.asociados__picture{
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
 }
 
 .img_aso{
@@ -185,10 +170,13 @@ body{
   height: 100px;
 }
 
-.serv{
+
+/**/
+
+.serv {
   background-color: white;
   color: #00aa55;
-  border:2px white solid;
+  border: 2px white solid;
   border-radius: 25px;
   margin-left: 5px;
   margin-right: 5px;
@@ -196,7 +184,7 @@ body{
   margin-bottom: 10px;
 }
 
-.proyecto{
+.proyecto {
   background-color: white;
   color: #00AA55;
   border: 2px white solid;
@@ -208,17 +196,17 @@ body{
   padding-left: 20px;
 }
 
-.proyecto img{
+.proyecto img {
   padding-top: 60px;
 }
 
 /*Contacto*/
 
-.titulocontacto{
-  color:white;  
+.titulocontacto {
+  color: white;
 }
 
-.rrsscontacto{
+.rrsscontacto {
   display: flex;
   justify-content: space-around;
   margin-top: 15px;
