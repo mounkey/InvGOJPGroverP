@@ -43,7 +43,10 @@ body {
   border-radius: 25px;
 }
 
-
+.imgcarrusel{
+  width: 40%;
+  height: 40%;
+}
 
 /*footer*/
 .footer {
