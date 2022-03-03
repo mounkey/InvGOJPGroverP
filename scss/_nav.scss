@@ -1,0 +1,18 @@
+#navbarSupportedContent{
+  ul{
+      li{
+        a{
+          color: $color1;
+          padding-left: 5px;
+          &:hover{
+            color: gray;
+          }
+        }
+      }
+  }
+}
+
+.logo{
+  width: 200px;
+  height: 150px;
+}
