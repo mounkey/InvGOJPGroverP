@@ -1,0 +1,21 @@
+
+/*map*/
+$color:(
+  color1: #00AA55,
+  color2: #ffffff 
+);
+
+.fondo{background-color: map-get($color, color1 );}
+.fondo2{background-color: map-get($color, color2 );}
+
+/*mixin*/
+
+@mixin fontcolor ($fcolor) {
+  color: $fcolor;
+}
+
+/*extend*/
+.qs__text{
+  @extend.fondo2;
+  @include fontcolor(#00AA55);
+}

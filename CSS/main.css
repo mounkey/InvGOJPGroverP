@@ -85,8 +85,6 @@ body {
   margin-bottom: 10p; }
 
 .qs__text {
-  background-color: white;
-  color: #00AA55;
   border-radius: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -174,3 +172,15 @@ body {
   background-color: white;
   color: #00AA55;
   border-radius: 25px; }
+
+/*map*/
+.fondo {
+  background-color: #00AA55; }
+
+.fondo2, .qs__text {
+  background-color: #ffffff; }
+
+/*mixin*/
+/*extend*/
+.qs__text {
+  color: #00AA55; }
