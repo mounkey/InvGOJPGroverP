@@ -22,4 +22,19 @@
   background-color: $color2;
   color: $color1;
   border-radius: 25px;
+  margin:10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
 }
+.map{
+  margin:20px 10px 20px 10px ;
+}
+
+.form-control{
+  background-color: $color1 !important;
+  color: $color2;
+  }
+
+  .btn_form{
+    background-color: $color1 !important;
+    color: $color2;
+  }
