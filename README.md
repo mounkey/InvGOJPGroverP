@@ -1,15 +1,26 @@
 # InvGOJPGroverP
 
-Primero 
+## Clonar el Repositorio
 
-Debe clonar el repositorio 
->git clone git@github.com:git@github.com:mounkey/InvGOJPGroverP.git **
->cd InvGOJPGroverP**
+debes clonar el repositorio:
 
-Posteriormente escribir, para instalar las dependencias
+`$ git clone git@github.com:git@github.com:mounkey/InvGOJPGroverP.git
+`$ cd InvGOJPGroverP
 
-  >npm install
+## Como ocupar Sass 
+Debes instalar las dependencias de node.js
 
-Para hacerlo correr Sass
-  
-  >npm run watch-css
+`$ npm install
+
+## Cómo se usar el visor SaSS 
+Escribes en el terminal esto para activar el visor SaSs
+
+`$ npm run watch-css
+
+## Cómo contribuir
+
+Puedes crear un pull request al proyecto
+
+## Licencia
+
+MIT. Juan Pablo Grover Pinto.
