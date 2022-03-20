@@ -23,10 +23,6 @@ body {
   border-radius: 25px; }
 
 .footer {
-  margin-top: 15px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
   padding-bottom: 5px;
   color: white; }
 
@@ -173,7 +169,7 @@ body {
   margin: 20px 10px 20px 10px; }
 
 .form-control {
-  background-color: #00AA55 !important;
+  background-color: #0AC232 !important;
   color: white; }
 
 .btn_form {
