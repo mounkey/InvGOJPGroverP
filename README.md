@@ -5,6 +5,9 @@
 debes clonar el repositorio:
 
 `$ git clone git@github.com:git@github.com:mounkey/InvGOJPGroverP.git
+
+## Ingresar a la carpeta del proyecto
+
 `$ cd InvGOJPGroverP
 
 ## Como ocupar Sass 
