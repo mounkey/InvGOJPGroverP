@@ -24,7 +24,9 @@ $ npm install
 ## Cómo se usar el visor SaSS 
 Escribes en el terminal esto para activar el visor SaSs
 
-`$ npm run watch-css
+```
+$ npm run watch-css
+```
 
 ## Cómo contribuir
 
