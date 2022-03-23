@@ -33,14 +33,12 @@ body {
   .ul-footer li {
     list-style-type: none; }
 
-.navegacion {
-  margin-top: 20px;
-  margin-left: 5px; }
-  .navegacion ul li {
-    list-style: none; }
-  .navegacion a {
-    text-decoration: none;
-    color: white; }
+.navegacion ul li {
+  list-style: none; }
+
+.navegacion a {
+  text-decoration: none;
+  color: white; }
 
 .RRSS__titulo {
   text-align: center; }
@@ -58,9 +56,8 @@ body {
   font-size: medium;
   color: white; }
 
-.Direccion, .mapa, .RRSS {
-  margin-top: 20px;
-  margin-left: 20px; }
+.navegacion, .Direccion, .mapa, .RRSS {
+  margin-top: 20px; }
 
 .context {
   background-color: white;
@@ -117,7 +114,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 15px; }
+  margin-top: 15px;
+  margin-top: 20px; }
   .asociados__picture .img_aso {
     width: 350px;
     height: 100px; }

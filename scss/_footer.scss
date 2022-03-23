@@ -14,8 +14,6 @@
 }
 
 .navegacion{
-  margin-top: 20px;
-  margin-left: 5px;
   ul li{
     list-style: none;
   }
@@ -45,7 +43,6 @@
   color: $color2;
 }
 
-.Direccion, .mapa, .RRSS{
-  margin-top: 20px;
-  margin-left: 20px;
+.navegacion,.Direccion, .mapa, .RRSS{
+  margin-top: 20px;  
 }
