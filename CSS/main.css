@@ -43,20 +43,18 @@ body {
 .RRSS__titulo {
   text-align: center; }
 
-.RRSS__URL {
-  display: flex;
-  justify-content: space-around;
-  text-align: center; }
-  .RRSS__URL a {
-    text-decoration: none;
-    color: white; }
+.redesSociales {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 80%; }
 
 .endfooter {
   text-align: center;
   font-size: medium;
   color: white; }
 
-.navegacion, .Direccion, .mapa, .RRSS {
+.navegacion, .mapa, .RRSS {
   margin-top: 20px; }
 
 .context {

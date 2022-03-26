@@ -27,14 +27,21 @@
   text-align: center;
 }
 
-.RRSS__URL{
-  display: flex;
-  justify-content: space-around;
+// .RRSS__URL{
+//   display: flex;
+//   justify-content: space-around;
+//   text-align: center;
+//   a{
+//     text-decoration: none;
+//     color: $color2;
+//   }
+// }
+
+.redesSociales{
   text-align: center;
-  a{
-    text-decoration: none;
-    color: $color2;
-  }
+  justify-content: center;
+  align-items: center;
+  height: 80%;
 }
 
 .endfooter{
@@ -43,6 +50,6 @@
   color: $color2;
 }
 
-.navegacion,.Direccion, .mapa, .RRSS{
+.navegacion, .mapa, .RRSS{
   margin-top: 20px;  
 }
